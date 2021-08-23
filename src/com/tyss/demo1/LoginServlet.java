@@ -73,7 +73,7 @@ public class LoginServlet extends HttpServlet {
 			if(count>0)
 			{
 			
-				RequestDispatcher dispatcher1= request.getRequestDispatcher("WelcomeServlet");
+				RequestDispatcher dispatcher1= request.getRequestDispatcher("Welcome to Servlet ");
 				dispatcher1.forward(request, response);
 			}
 			else
